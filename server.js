@@ -71,7 +71,7 @@ startBot();
 
 // HOME ROUTE
 
-app.get("/", (req, res) => {
+router.get("/", (req, res) => {
 
   res.send(`
     <h2>ZEROTRACE-MD Backend Running ✅</h2>
